@@ -1,4 +1,5 @@
 # **Portals for Orbiter**
+![portal_intro](https://github.com/user-attachments/assets/92325e76-49f4-45e4-9810-482bb8163cbc)
 
 Now you are thinking with portals... in OpenOrbiter2024!
 

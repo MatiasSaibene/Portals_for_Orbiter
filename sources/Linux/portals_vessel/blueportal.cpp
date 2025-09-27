@@ -71,18 +71,25 @@ void BLUEPORTAL::clbkSetClassCaps(FILEHANDLE cfg){
 
     l2 = AddSpotLight(Spot2_Location, _V(0.0000, 0.0000, 1.4000), 5, 1e-1, 0, 2e-1, 25*RAD, 45*RAD, col_d, col_s, col_a);
 
+
     th_rcs[0] = CreateThruster(RCS1_Location, _V(0, 1, 0), PORTAL_TH, prp, PORTAL_ISP);
     th_rcs[1] = CreateThruster(RCS1_Location, _V(0, -1, 0), PORTAL_TH, prp, PORTAL_ISP);
+
     th_rcs[2] = CreateThruster(RCS0_Location, _V(0, 1, 0), PORTAL_TH, prp, PORTAL_ISP);
     th_rcs[3] = CreateThruster(RCS0_Location, _V(0, -1, 0), PORTAL_TH, prp, PORTAL_ISP);
+
     th_rcs[4] = CreateThruster(RCS2_Location, _V(0, 1, 0), PORTAL_TH, prp, PORTAL_ISP);
     th_rcs[5] = CreateThruster(RCS2_Location, _V(0, -1, 0), PORTAL_TH, prp, PORTAL_ISP);
+
     th_rcs[6] = CreateThruster(RCS3_Location, _V(0, 1, 0), PORTAL_TH, prp, PORTAL_ISP);
     th_rcs[7] = CreateThruster(RCS3_Location, _V(0, -1, 0), PORTAL_TH, prp, PORTAL_ISP);
+
     th_rcs[8] = CreateThruster(RCS1_Location, _V(-1, 0, 0), PORTAL_TH, prp, PORTAL_ISP);
     th_rcs[9] = CreateThruster(RCS0_Location, _V(1, 0, 0), PORTAL_TH, prp, PORTAL_ISP);
+
     th_rcs[10] = CreateThruster(RCS2_Location, _V(-1, 0, 0), PORTAL_TH, prp, PORTAL_ISP);
     th_rcs[11] = CreateThruster(RCS3_Location, _V(1, 0, 0), PORTAL_TH, prp, PORTAL_ISP);
+    
     th_rcs[12] = CreateThruster(RCS4_Location, _V(0, 0, 1), PORTAL_TH, prp, PORTAL_ISP);
     th_rcs[13] = CreateThruster(RCS5_Location, _V(0, 0, -1), PORTAL_TH, prp, PORTAL_ISP);
 
